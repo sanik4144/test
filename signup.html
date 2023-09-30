@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="shortcut icon" href="imags/frok and knife.png" type="image/x-icon">
+</head>
+<body>
+    <div class="logo">
+          <p><img src="./imags/frok and knife.png" alt="" />Gourmet Haven</p>
+    </div>
+
+    <div  class="sgn-bg">
+        <form action="" onsubmit="redalert()">
+            
+                <h1 class="sgn">Sign <span>UP</span></h1>
+
+
+            <div class="sgn-control">
+                <label for="name">Your Name</label>
+                <input type="text" name="name" id="fname" placeholder="First Name"> 
+                <input type="text" name="name" id="lname" placeholder="Last Name">
+                <span id="nlname"></span>
+            </div>
+            <div class="sgn-control">
+                <label for="email">E-Mail</label>
+                <input type="email" name="email" id="email" placeholder="youremail@yahoo.com">
+                <span id="nemail"></span>
+            </div>
+            <div class="sgn-control">
+                <label for="mono">Mobile Number</label>
+                <select name="numcode" id="numcode">
+                    <option value="">+880</option>
+                    <option value="">+91</option>
+                </select>
+                <input type="tel" name="mono" id="mono" placeholder="123456789">
+                <span id="nmono"></span>
+            </div>
+            <div class="sgn-control">
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob" id="dob">
+                <span id="ndob"></span>
+            </div>
+            <div class="sgn-control">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="nomen" selected>Not to Mention</option>
+                </select>
+            </div>
+            <div class="sgn-control">
+                <label for="country">Country</label>
+                <input type="text" name="country" id="country" placeholder="Bangladesh">
+                <span id="ncountry"></span>
+            </div>
+            <div class="sgn-control">
+                <label for="pass">Enter Password</label>
+                <input type="password" name="pass" id="pass" placeholder="********">
+                <span id="npass"></span>
+            </div>
+            <div class="sgn-control">
+                <label for="repass">Enter Password Again</label>
+                <input type="password" name="repass" id="repass" placeholder="********">
+                <span id="nrepass"></span>
+            </div>
+            <div class="checkbox-control">
+                <input type="checkbox" name="agreement" id="agreement" >
+                <label for="agreement">I agree to the <a href="" class="terms">Terms & Conditions</a>, as well as your <a href="" class="terms">Privacy Policy</a></label>
+                <span id="nagreement"></span>
+            </div>
+            <div>
+                <button type="submit" class="btn-submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="welcome">
+        <h1>Food made with <span>Love</span></h1>
+        <br>
+        <p>
+        Welcome to <span>Gourmet Haven</span>!
+
+        We're delighted to have you join our culinary family. By signing up, you're taking the first step towards a world of <span>exceptional</span> dining experiences. Get ready to savor exquisite flavors, receive exclusive offers, and stay updated on our latest creations.
+        <br><br>
+        Signing up is <span>quick</span> and <span>easy</span>, and it's your passport to a gastronomic journey like no other.
+        <br><br>
+        Thank you for choosing <span>Gourmet Haven</span> where every bite is an exquisite adventure
+        </p>
+      </div>
+
+      <script src="app.js"></script>
+</body>
+</html>
